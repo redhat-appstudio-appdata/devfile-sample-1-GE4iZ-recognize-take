@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-efcq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/sbudhwar-1-tenant/devfile-sample-1/devfile-sample-efcq@sha256:870173356d28e675cc88040b542f4829c5af1b274b834b708de908ed374b52f9
         name: my-nodejs
         ports:
         - containerPort: 3001
